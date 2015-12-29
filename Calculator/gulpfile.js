@@ -11,7 +11,7 @@ var gulpSequence = require('gulp-sequence');
 var params = {
 	buildVersion: args.buildVersion || '1.0.0.0',
 	nunitRunner: args.nunitRunner || __dirname + '\\packages\\NUnit.Console.3.0.1\\tools\\nunit3-console.exe',
-	nugetPath: args.nugetPath || 'nuget'
+	nugetPath: args.nugetPath || process.env.nugetPath || 'nuget'
 }
 
 
