@@ -4,9 +4,11 @@
   "description": "A simple app to help validate a .net build server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
   },
   "author": "",
+  "repository": { "url": "https://github.com/paulwelden/BuildServerSetup" },
   "license": "ISC",
   "devDependencies": {
     "del": "^2.2.0",
